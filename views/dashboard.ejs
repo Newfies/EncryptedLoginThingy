@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body { font-family: sans-serif; padding: 50px; text-align: center; }
+        .container { border: 1px solid #ccc; padding: 20px; border-radius: 8px; display: inline-block; }
+        .logout-btn { color: red; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to your Dashboard, <%= username %>!</h1>
+        <p>You have successfully logged in using a <strong>bcrypt</strong> encrypted password.</p>
+        
+        <hr>
+        
+        <form action="/logout" method="POST">
+            <button type="submit" style="cursor:pointer">Log Out</button>
+        </form>
+    </div>
+</body>
+</html>

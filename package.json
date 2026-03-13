@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,11 @@
   "dependencies": {
     "bcrypt": "^6.0.0",
     "body-parser": "^2.2.2",
+    "dotenv": "^17.3.1",
     "ejs": "^5.0.1",
     "express": "^5.2.1",
-    "express-session": "^1.19.0"
+    "express-session": "^1.19.0",
+    "nodemon": "^3.1.14",
+    "sqlite3": "^6.0.1"
   }
 }
