@@ -95,7 +95,6 @@ app.post('/logout', (req, res) => {
     });
 });
 
-// Express 5 syntax for "match everything"
 app.get('{/*path}', (req, res) => {
     if (!req.session.userId) return res.redirect('/login');
     res.redirect('/dashboard');
