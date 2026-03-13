@@ -2,7 +2,7 @@
 
 :Run-Process
 cls
-title GsLibrary Dynamic Website Template - Run Server
+title Run Server
 echo Starting the app...
 echo.
 cls
