@@ -1,0 +1,26 @@
+{
+  "name": "encryptedloginthingy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Newfies/EncryptedLoginThingy.git"
+  },
+  "author": "Newfies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Newfies/EncryptedLoginThingy/issues"
+  },
+  "homepage": "https://github.com/Newfies/EncryptedLoginThingy#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.2",
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0"
+  }
+}
