@@ -1,21 +1,28 @@
-# Features
-- Login system
-- bcrypt encrypted passwords
-- sqlite database 
-- Premade server account that can wipe the users database
+# 🔐 Secure Bcrypt SQLite Login System
 
-# How to Install
+---
 
-```
-    git clone https://github.com/Newfies/secure-bcrypt-sqlite-login-system.git
-    cd EncryptedLoginThingy
-    install.bat
+## ✨ Features
+
+*   **🔑 Encryption** – Passwords are salted and hashed using `bcrypt` (12 rounds).
+*   **🗄️ SQL Database** – Zero-config SQL setup using `sqlite3`.
+*   **⚡ Admin Control** – A pre-made `server` account with the exclusive power to wipe and re-initialize the user database remotely.
+*   **⚙️ .env** – Fully configurable via `.env` for ports, secrets, and admin credentials.
+
+---
+
+### Installation
+Clone the repository and run the automated setup script:
+
+```bash
+git clone https://github.com/Newfies/secure-bcrypt-sqlite-login-system.git
+cd secure-bcrypt-sqlite-login-system
+install.bat
 ```
 
-# How to Run
-```
-    run.bat
-```
+### Running the Server
+To start the application, simply execute:
 
-# Notice
-this does contain AI generated content but is actually mainly a reference on my old creation **expressjs-databases-hashed**
+```bash
+run.bat
+```
